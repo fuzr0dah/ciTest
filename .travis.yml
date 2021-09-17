@@ -4,4 +4,5 @@ xcode_workspace: ciTest.xcworkspace
 xcode_scheme: ciTest
 xcode_destination: platform=iOS Simulator,OS=14.5,name=iPhone 12
 before_install:
-    - pod install
+    - bundle install
+    - bundle exec pod install
