@@ -2,6 +2,6 @@ language: swift
 osx_image: xcode12.5
 xcode_workspace: ciTest.xcworkspace
 xcode_scheme: ciTest
-xcode_destination: platform=iOS Simulator,OS=14.5,name=iPhone X
+xcode_destination: platform=iOS Simulator,OS=14.5,name=iPhone 12
 before_install:
     - pod install
